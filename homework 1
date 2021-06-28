@@ -1,0 +1,31 @@
+print("Once upon a time there was a strong Wizard")
+print("The Wizard lived on a bridge in the middle of a small village")
+print("He casted spells and made potions")
+print("People thought the wizard was too powerful")
+print("People sent a stong knight to destroy the Wizard")
+print("The Wizard thought this was cruel and decided to leave the village and the bridge")
+print("Now the Wizard lives in a big city where he now learns different spells and potions ")
+print("The wizard wants to return and recalim his bridge when he becomes stronger")
+
+input ("would you like to see the hidden story?")
+if("yes"):print("You must now guess the password if you want the secret story")
+
+password = input("What is the password?")
+print(password)
+
+spells = True
+if not spells:
+  print("Wrong password")
+elif spells:
+    print("You are correct")
+if ("spells"): 
+  print("You got it right!")
+else: 
+ ("Inccorect, you can't see the story")
+
+wrong =input ("hint- what do wizards cast?") 
+
+if not ("won"):
+   print("you have 2 more tries")
+elif ("won"): 
+     print("You guessed correctly")
