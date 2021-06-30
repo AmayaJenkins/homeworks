@@ -1,20 +1,23 @@
-import random 
+import random
 
-print("Welcome to your fortune teller!") 
+print("Welcome to your fortune teller!")
 print("If you’re lucky, you’ll have a lucky outcome.")
+print("Roll")
+magic = random.randrange(0, 100)
 
-magic = random.randrange(0,100)
+print(magic)
+
+if (magic < 8):
+    print(" Unlucky! You will get stuck in the rain")
+
+elif (magic == 25):
+    print("Unlucky! you will crack your phone")
+
+elif (magic > 26):
+    print(" Lucky! you will win 1 million dollars ")
+
+elif (magic == 100):
+    print("You won the lottery! You will get a free trip to the moon")
+
 
 input("pick a number")
-
-if(magic <=5):
-  print(" Unlucky! You will get stuck in the rain")
-
-elif(magic ==25):
-  print("Unlucky! you will crack your phone")
- 
-elif(magic >25):
-  print(" Lucky! you will win 1 million dollars ")
-
-elif(magic == 100):
-  print("You won the lottery! You will get a free trip to the moon")
